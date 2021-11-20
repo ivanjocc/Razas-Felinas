@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e57d5a8abb.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<title>Razas Felinas</title/>
+</head>
+<body>
+
+	<!-- Encabezado -->
+
+	<header>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col col-12">
+					<h1>Razas felinas</h1>
+				</div>
+				<div class="col">
+					<ul class="nav col col-auto justify-content-between align-items-center">
+						<li class="nav-item">
+							<a href="" class="nav-link active inicio"><img src="img/logo.jpg" alt="" class="logo"></a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#bienvenida" class="nav-link scroll">Bienvenida</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#nosotros" class="nav-link scroll">Sobre nosotros</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#contacto" class="nav-link scroll">Contacto</a>
+						</li>
+
+						<div class="nav-item dropdown">
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+								Michis del mundo
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+								<li><a class="dropdown-item" href="#">Asia</a></li>
+								<li><a class="dropdown-item" href="#">América</a></li>
+								<li><a class="dropdown-item" href="#">África</a></li>
+								<li><a class="dropdown-item" href="#">Europa</a></li>
+								<li><a class="dropdown-item" href="#">Oceanía</a></li>
+							</ul>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Bienvenida -->
+	
+	<section class="main">
+		<div class="container">
+
+			<!-- Carousel -->
+
+			<section class="row main-carousel">
+				<div class="col">
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/angora.jpg" class="d-block w-100" alt="Angora">
+							<div class="carousel-caption d-none d-md-block">
+							<h5 class="text-dark">Angora</h5>
+							<p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, maxime.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/brittish.jpg" class="d-block w-100" alt="Brittish Shorthair">
+							<div class="carousel-caption d-none d-md-block">
+							<h5 class="text-light">Brittish Shorthair</h5>
+							<p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, dolore?</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/scottish.jpg" class="d-block w-100" alt="Scottish Fold">
+							<div class="carousel-caption d-none d-md-block">
+							<h5 class="text-dark">Scottish Fold</h5>
+							<p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, numquam.</p>
+							</div>
+						</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<!-- Sobre nosotros -->
+
+			<section id="nosotros">
+				<div class="container sobre-nosotros my-3">
+					<div class="row">
+						<hr>
+						<div class="col col-5 col-izq">
+							<h3>Sobre nosotros</h3>
+						</div>
+						<div class="col col-7 col-der">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo deleniti molestiae ab voluptates ipsam nobis veniam consequuntur cupiditate reiciendis excepturi quas odit pariatur beatae, atque dolore eveniet! Officiis totam molestiae inventore eaque consequuntur sunt ullam id aliquid praesentium alias dignissimos maxime ipsa nisi quibusdam eum laboriosam expedita, quos velit?</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contacto -->
+
+			<section id="contacto">
+				<div class="container mb-5 contacto">
+					<div class="row">
+						<hr>
+						<div class="col col-12 d-flex text-center my-3">
+							<h3>Información de contacto</h3>
+						</div>
+
+						<div class="col col-4 col-sm d-flex text-center justify-content-center col-none col-12 d-flex px-0 mb-2">
+							<div class="card" style="width: 18rem;">
+								<div class="card-body">
+								<h5 class="card-title text-center">Dirección</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magni perspiciatis distinctio totam vero voluptatem libero quidem iste deserunt atque.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col col-4 col-sm d-flex text-center justify-content-center col-none col-12 d-flex px-0 mb-2">
+							<div class="card" style="width: 18rem;">
+								<div class="card-body">
+								<h5 class="card-title text-center">Teléfonos</h5>
+								<p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio repudiandae praesentium dolores ad voluptas excepturi non culpa placeat deleniti minima?</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col col-4 col-sm d-flex text-center justify-content-center col-none col-12 d-flex px-0">
+							<div class="card" style="width: 18rem;">
+								<div class="card-body">
+								<h5 class="card-title text-center">Correos </h5>
+								<p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem possimus ipsa et eum quis beatae similique dolores ad atque saepe?</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+
+	<!-- Pie de página -->
+
+	<footer>
+		<div class="container-fluid bg-dark p-3">
+			<div class="row align-items-center py-3 col-none col-12 d-flex px-0">
+				<div class="col text-light mx-0 justify-content-center col-none col-12 d-flex px-0">
+					<p class="mb-0">&copy; Todos los derechos reservados</p>
+				</div>
+
+				<div class="col text-center text-light m-3 col-none col-12 d-flex px-0 justify-content-around mt-3">
+					<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook mx-3"></i></a>
+					<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter mx-3"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram mx-3"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scroll.js"></script>
+</body>
+</html>

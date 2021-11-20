@@ -1,0 +1,148 @@
+// Colores
+$negro: #2D3434;
+$blanco: #E1F6F6;
+$azul: #0F0990;
+$gris: #A0A0A0;
+
+// Bootstrap
+@import "../bootstrap/scss/bootstrap.scss";
+
+
+// Generales
+
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	text-align: center;
+}
+
+.logo{
+	height: 50px;
+}
+
+img{
+	height: 500px;
+	object-fit: cover;
+}
+
+.sobre-nosotros{
+	margin-top: 50px;
+}
+
+h3{
+	display: flex;
+	margin: 0 auto;
+	align-self: center;
+}
+
+a{
+	text-decoration: none;
+	font-weight: 500;
+
+	&:hover{
+		color: $blanco;
+	}
+}
+
+.nav-link{
+	text-decoration: none;
+	color: $gris;
+
+	&:hover{
+		color: $negro;
+	}
+}
+
+// Sobre Nosotros
+
+.sobre-nosotros{
+	.col-izq{
+		display: flex;
+		margin: 0 auto;
+		border-right: 1px solid $gris;
+
+		h3{
+			font-size: 3rem;
+			font-style: italic;
+			color: $negro;
+		}
+	}
+
+	.col-der{
+		p{
+			text-align: justify;
+			font-size: 1.15rem;
+			color: $negro;
+		}
+	}
+}
+
+
+// Media Queries
+
+@media all and (max-width: 768px){
+
+	header{
+		margin-top: 10px;
+	}
+
+	.main{
+		margin-top: 30px;
+	}
+
+	.sobre-nosotros{
+		.col-izq{
+			width: 100%;
+			border-right: none;
+			border-bottom: 1px solid $negro;
+		}
+
+		.col-der{
+			margin-top: 30px;
+			width: 100%;
+		}
+	}
+
+	.contacto{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+		p{
+			font-size: 1rem;
+			text-align: justify;
+		}
+	}
+}
+
+@media all and (max-width: 480px){
+
+	header{
+		margin-top: 10px;
+	}
+	
+	.main{
+		margin-top: 30px;
+	}
+
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.sobre-nosotros{
+		h3{
+			text-transform: uppercase;
+			text-align: justify;
+		}
+	}
+}
